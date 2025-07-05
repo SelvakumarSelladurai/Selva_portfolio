@@ -33,7 +33,7 @@ const Navbar = () => {
       <nav className='flex items-center justify-center flex-wrap'>
         <motion.a href={'https://www.linkedin.com/in/selvakumar-s-738686284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} target={"_blank"} whileHover={{y:-2}} className='w-8 mr-3'
         whileTap={{scale:0.9}}><FaLinkedin fontSize={'35'} color='#2390de'/></motion.a>
-        <motion.a href={'https://github.com/Selvakumar5973'} target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} 
+        <motion.a href={'https://github.com/SelvakumarSelladurai'} target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} 
         className='w-8 ml-3'><FaGithub fontSize={'35'} /></motion.a>
         <button onClick={()=>setmode(mode==="light"?"dark":"light")}
           className={`ml-5 flex items-center justify-center rounded-full padding-1

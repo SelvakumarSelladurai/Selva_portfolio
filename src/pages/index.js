@@ -1,5 +1,3 @@
-// File: portfolio-main/src/pages/index.js
-
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import selva from "../../public/images/selva.png";
@@ -7,6 +5,7 @@ import globe from "../../public/images/globe.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 import Head from "next/head";
 
 export default function Home() {
@@ -20,7 +19,7 @@ export default function Home() {
         <Layout className="pt-0">
           <div className="px-4 sm:px-8 md:px-16">
             <div className="flex flex-col md:flex-row items-center justify-between w-full gap-8">
-              
+
               {/* Image Section */}
               <div className="w-full md:w-1/2 mb-8 md:mb-0">
                 <Image
@@ -32,7 +31,7 @@ export default function Home() {
                 />
               </div>
 
-              {/* Text Section */}
+              {/* Text + Buttons Section */}
               <div className="w-full md:w-1/2 flex flex-col items-center md:items-start self-center text-center md:text-left">
                 <AnimatedText
                   text="Where Imagination Meets Implementation"
@@ -45,8 +44,8 @@ export default function Home() {
                   An aspiring Front-End Developer driven by creativity, curiosity, and continuous learning across emerging technologies.
                 </p>
 
-                {/* Buttons */}
                 <div className="flex flex-col sm:flex-row items-center mt-4 gap-4">
+                  {/* Resume Button */}
                   <Link
                     href="/Resume.pdf"
                     target="_blank"
@@ -56,9 +55,10 @@ export default function Home() {
                       dark:text-dark dark:bg-light hover:text-dark 
                       border-2 border-solid border-transparent hover:border-dark"
                   >
-                    Resume <MdArrowOutward fontSize={"30"} />
+                    Resume <MdArrowOutward fontSize={"30"} className="ml-2" />
                   </Link>
 
+                  {/* Contact Button */}
                   <Link
                     href="mailto:selvakumardurai5973@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Selvakumar%2C%0A%0AI%20would%20like%20to%20get%20in%20touch%20with%20you..."
                     target="_blank"
@@ -66,6 +66,18 @@ export default function Home() {
                     style={{ background: "#8e16be" }}
                   >
                     Contact
+                  </Link>
+
+                  {/* GitHub Button */}
+                  <Link
+                    href="https://github.com/SelvakumarSelladurai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center bg-gray-800 text-white p-2.5 px-6 
+                      rounded-lg text-lg font-semibold hover:bg-white hover:text-gray-800 
+                      dark:text-light dark:bg-gray-800 hover:border-gray-800 border-2 border-transparent"
+                  >
+                    <FaGithub fontSize={24} className="mr-2" /> GitHub
                   </Link>
                 </div>
               </div>
