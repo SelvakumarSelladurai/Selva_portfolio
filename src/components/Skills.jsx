@@ -3,7 +3,7 @@ import {
   FaPython, FaHtml5, FaCss3Alt, FaJs, FaCloud, FaJava, FaChartBar 
 } from "react-icons/fa";
 import { 
-  SiMysql, SiGooglecloud, SiTensorflow, SiAdobe, SiUnity 
+  SiMysql, SiGooglecloud, SiAdobe, SiUnity 
 } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { MdDesignServices, MdShowChart } from "react-icons/md";
@@ -37,7 +37,6 @@ const Skills = () => {
         <Skill name={<FaHtml5 fontSize="55" color="#e34c26" />} x="-20vw" y="2vw" />
         <Skill name={<FaCss3Alt fontSize="55" color="#1572B6" />} x="20vw" y="6vw" />
         <Skill name={<FaJs fontSize="55" color="#f7df1e" />} x="0vw" y="12vw" />
-        <Skill name={<SiTensorflow fontSize="55" color="#ff6f00" />} x="-20vw" y="-15vw" />
         <Skill name={<GiArtificialIntelligence fontSize="55" color="#7f21f5" />} x="15vw" y="-12vw" />
         <Skill name={<FaCloud fontSize="55" color="#00c6ff" />} x="12vw" y="-5vw" />
         <Skill name={<FaJava fontSize="55" color="#007396" />} x="0vw" y="-20vw" />
