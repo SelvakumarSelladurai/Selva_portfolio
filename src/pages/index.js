@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </Layout>
 
-          <div className="absolute right-8 bottom-8 inline-block w-48">
+          <div className="absolute right-7 bottom-7 inline-block w-48">
             <Image
               src={globe}
               className="w-24 h-25 mt-10 mx-auto"
