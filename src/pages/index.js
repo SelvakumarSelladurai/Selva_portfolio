@@ -51,10 +51,12 @@ export default function Home() {
                   classname="text-6xl !text-left"
                 />
                 <p className="my-4 text-base font-medium">
-                  Hi, I&apos;m Selvakumar – a Python and Web Development enthusiast.
-                  Passionate about crafting engaging web experiences using HTML, CSS, and JavaScript.
-                  Aspiring Front-End Developer driven by creativity and continuous learning.
-                </p>
+  Hi, I&apos;m Selvakumar – a Full Stack Web Developer and AI enthusiast.
+  Passionate about crafting engaging and scalable web experiences using React, Node.js, HTML, CSS, and JavaScript.
+  I’m also focused on building intelligent systems with Generative AI, Prompt Engineering, and Machine Learning.
+  A self-driven developer committed to continuous learning and creative problem-solving.
+  </p>
+
                 <div className="flex items-center self-start mt-2">
                   <Link
                     href="./resume.pdf"
